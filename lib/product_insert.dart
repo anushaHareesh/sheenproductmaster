@@ -131,7 +131,7 @@ class _ProductInsertState extends State<ProductInsert> {
               })
         ],
         centerTitle: true,
-        title: Text("Product Creation"),
+        title: Text("Product Creation",style: TextStyle(color: Colors.white),),
         backgroundColor: Theme.of(context).primaryColor,
       ),
       body: SingleChildScrollView(
@@ -499,7 +499,7 @@ class _ProductInsertState extends State<ProductInsert> {
                             child: Text(
                               "SAVE",
                               style: TextStyle(
-                                  fontWeight: FontWeight.bold, fontSize: 20),
+                                  fontWeight: FontWeight.bold, fontSize: 20,color: Colors.white),
                             )),
                       ),
                       SizedBox(
